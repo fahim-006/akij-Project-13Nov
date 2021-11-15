@@ -13,9 +13,10 @@ import {
 } from "reactstrap";
 
 const style = { 
-    width: "24rem",
-    left: "42%",
-    top:"100px"
+    width: "22rem",
+    display: "block",
+    marginLeft: "auto",
+    marginRight: "auto",
  };
 
  const style1 = { 
@@ -27,8 +28,8 @@ function AboutDiv5() {
     <div style={{marginTop: "70px"}}>
         <p className="aboutusHeading" style={{textAlign: "center", left: "50%"}}>Meet Our Team</p>
         <p className="aboutusHeading1" style={{left: "50%", textAlign: "center"}}>Senior Leadership</p>
-
-      <Card style={style}>
+      <div className="chairmain">
+      <Card>
         <CardImg
           alt="Founder"
           src={Founder}
@@ -54,6 +55,7 @@ function AboutDiv5() {
           </CardText>
         </CardBody>
       </Card>
+      </div>
     </div>
   );
 }

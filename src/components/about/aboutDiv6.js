@@ -16,8 +16,9 @@ import {
 } from "reactstrap";
 
 const style = { 
-    width: "24rem",
-    top:"100px"
+  display: "block",
+  marginLeft: "auto",
+  marginRight: "auto",
  };
 
  const style1 = { 
@@ -26,8 +27,8 @@ const style = {
  };
 const AboutDiv6 = () => {
     return(
-        <div className="container-fluid"  style={{marginTop: "140px", padding: "100px"}}>
-            <p className="aboutusHeading1" style={{left: "50%", textAlign: "center"}}>Executive Team</p>
+        <div className="container-fluid"  style={{marginTop: "140px"}}>
+            <p className="aboutusHeading1" style={{ textAlign: "center"}}>Executive Team</p>
             <hr  className="aboutusDiv5-hr1"/>
 
             <div className="row">
@@ -118,8 +119,8 @@ const AboutDiv6 = () => {
       </Card>
                 </div>
 
-                <div className="col-lg-3 col-md-12 col-sam-12">
-                <Card style={style}>
+        <div className="col-lg-3 col-md-12 col-sam-12">
+        <Card style={style}>
         <CardImg
           alt="Founder"
           src={exeTeam4}

@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footer">
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-3" >
+                    <div className="col-lg-3 col-md-12 col-sm-12">
                         <img  src={FooterMain} alt="Logo" width="100%" className="FooterImage"/>
                             <div className="flex-container-card">
                                 <div className="flex-item-card">
@@ -30,7 +30,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                    <div className="col-2">
+                    <div className="col-lg-2 col-md-12 col-sm-12">
                         <div class="flex-container-footer-link">
                             <div class="flex-item-footer-link" style={{fontWeight: "bold"}}>
                                 SUPPORT
@@ -53,7 +53,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-2">
+                    <div className="col-lg-2 col-md-12 col-sm-12">
                         <div class="flex-container-footer-link">
                                 <div class="flex-item-footer-link" style={{fontWeight: "bold"}}>
                                     Delearship
@@ -68,7 +68,7 @@ const Footer = () => {
                                 </div>
                         </div>
                     </div>
-                    <div className="col-2">
+                    <div className="col-lg-2 col-md-12 col-sm-12">
                         <div class="flex-container-footer-link">
                                 <div class="flex-item-footer-link" style={{fontWeight: "bold"}}>
                                     LINKS
@@ -90,7 +90,7 @@ const Footer = () => {
                                 </div>
                             </div>
                     </div>
-                    <div className="col-2">
+                    <div className="col-lg-2 col-md-12 col-sm-12">
                         <div class="flex-container-footer-link">
                                 <div class="flex-item-footer-link" style={{fontWeight: "bold"}}>
                                     Location

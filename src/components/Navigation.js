@@ -2,6 +2,8 @@ const Navigation = () => {
     return(
        
             <div className="container-fluid navCategory grid-container">
+             
+               
                 <div className="item1">
                 <svg
                   stroke="currentColor"
@@ -30,7 +32,9 @@ const Navigation = () => {
                 <div className="item">FORLIFT/STACKER</div>
                 <div className="item">CONSTRUCTION MACHINERY</div>
                 <div className="item">SPECIAL VEHICLE</div>
-            </div>
+                </div>
+              
+           
     )
 }
 

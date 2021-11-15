@@ -8,7 +8,7 @@ const AboutusDiv3 = () => {
     };
     return(
         <div className="container-fluid" >
-            <img src="images/div3About.png" style={style} className="img-fluid"/>
+            <img src="images/div3About.png"  alt="image" style={style} className="img-fluid"/>
         </div>
     );
 }
