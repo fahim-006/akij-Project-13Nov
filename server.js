@@ -1,12 +1,17 @@
-const express = require("express");
-const bodyParser = require("body-parser");
-const cors = require("cors");
-
-const app = express();
+const app = require('./app')
+const cors = require('cors')
+const express = require('express');
 
 var corsOptions = {
   origin: "http://localhost:8081"
 };
+// Using all API
+
+// Headers For API Accessing
+app.use(cors());
+
+// parse requests of content-type - application/x-www-form-urlencoded
+app.use(express.urlencoded({ extended: true }));
 
 app.use(cors(corsOptions));
 
@@ -15,9 +20,6 @@ app.use(express.json());
 
 const db = require("./models");
 db.sequelize.sync();
-
-// parse requests of content-type - application/x-www-form-urlencoded
-app.use(express.urlencoded({ extended: true }));
 
 // simple route
 app.get("/", (req, res) => {
