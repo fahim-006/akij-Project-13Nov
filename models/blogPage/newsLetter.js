@@ -1,5 +1,5 @@
 module.exports = (sequelize, DataTypes) => {
-    const VehicleType = sequelize.define("vehicleType", {
+    const Newsletter= sequelize.define("newsletter", {
         id: {
             type: DataTypes.BIGINT,
             allowNull: false,
@@ -7,14 +7,14 @@ module.exports = (sequelize, DataTypes) => {
             autoIncrement: true,
             field: 'id',
         },
-
-        typeofVehicle: {
+        
+        newsletter: {
             type: DataTypes.STRING,
             allowNull: false,
-            field: 'typeofVehicle',
+            field: 'newsletter',
         },
         
         });
-    return VehicleType;
+    return Newsletter;
 };
     

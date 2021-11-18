@@ -8,10 +8,10 @@ module.exports = (sequelize, DataTypes) => {
             field: 'id',
         },
 
-        idOfDealerMobiles: {
+        idOfDealerMobile: {
             type: DataTypes.BIGINT,
             allowNull: false,
-            field: 'idOfDealerMobiles',
+            field: 'idOfDealerMobile',
         },
 
         dealerDivision: {

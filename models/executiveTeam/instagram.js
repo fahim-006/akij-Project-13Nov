@@ -1,5 +1,5 @@
 module.exports = (sequelize, DataTypes) => {
-    const DealerName = sequelize.define("dealerName", {
+    const ExecutiveTeamInstagram = sequelize.define("executiveTeamInstagram", {
         id: {
             type: DataTypes.BIGINT,
             allowNull: false,
@@ -8,19 +8,19 @@ module.exports = (sequelize, DataTypes) => {
             field: 'id',
         },
 
-        idOfDealerMobile: {
+        idofExecutiveTeamDesignation: {
             type: DataTypes.BIGINT,
             allowNull: false,
-            field: 'idOfDealerMobile',
+            field: 'idofExecutiveTeamDesignation',
         },
 
-        nameofDealer: {
+        executiveTeamInstagram: {
             type: DataTypes.STRING,
             allowNull: false,
-            field: "nameofDealer"
-        }
+            field: 'executiveTeamInstagram',
+        },
         
         });
-    return DealerName;
+    return ExecutiveTeamInstagram;
 };
     

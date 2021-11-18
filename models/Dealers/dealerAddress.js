@@ -1,5 +1,5 @@
 module.exports = (sequelize, DataTypes) => {
-    const DealerAddress = sequelize.define("dealerAddress", {
+    const AddressDealer = sequelize.define("addressDealer", {
         id: {
             type: DataTypes.BIGINT,
             allowNull: false,
@@ -8,19 +8,19 @@ module.exports = (sequelize, DataTypes) => {
             field: 'id',
         },
 
-        idOfDealerMobiles: {
+        idOfDealerMobile: {
             type: DataTypes.BIGINT,
             allowNull: false,
-            field: 'idOfDealerMobiles',
+            field: 'idOfDealerMobile',
         },
 
-        addressofDealers: {
+        addressofDealer: {
             type: DataTypes.STRING,
             allowNull: false,
-            field: "addressofDealers"
+            field: "addressofDealer"
         }
         
         });
-    return DealerAddress;
+    return AddressDealer;
 };
     

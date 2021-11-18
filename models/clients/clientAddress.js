@@ -1,5 +1,5 @@
 module.exports = (sequelize, DataTypes) => {
-    const ClientAddress = sequelize.define("clientAddress", {
+    const AddressClient= sequelize.define("addressClient", {
         id: {
             type: DataTypes.BIGINT,
             allowNull: false,
@@ -8,19 +8,19 @@ module.exports = (sequelize, DataTypes) => {
             field: 'id',
         },
 
-        idOfClientMobiles: {
-            type: DataTypes.BIGINT,
-            allowNull: false,
-            field: 'idOfClientMobiles',
-        },
-        
-        Address: {
+        idOfClientMobile: {
             type: DataTypes.STRING,
             allowNull: false,
-            field: 'address',
+            field: 'idOfClientMobile',
+        },
+        
+        addressClient: {
+            type: DataTypes.STRING,
+            allowNull: false,
+            field: 'addressClient',
         },
         
         });
-    return ClientAddress;
+    return AddressClient;
 };
     

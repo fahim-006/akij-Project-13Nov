@@ -41,7 +41,62 @@ db.clientMobileNo = require("./clients/clientPhone")(sequelize, Sequelize);
 db.clientName = require("./clients/clientNames")(sequelize, Sequelize);
 db.clientAddress = require("./clients/clientAddress")(sequelize, Sequelize);
 db.clientEmail = require("./clients/clientEmails")(sequelize, Sequelize);
+db.clientImage = require("./clients/clientImages")(sequelize, Sequelize);
 //db Clients Models ends
 
+
+//db Awards Starts
+db.awardTotal = require("./awards/totalAwards")(sequelize, Sequelize);
+db.awardDetails = require("./awards/awardDetails")(sequelize, Sequelize);
+//db Awards ends
+
+//db Services Starts
+db.serviceTypes = require("./services/serviceTypes")(sequelize, Sequelize);
+db.serviceNames = require("./services/serviceName")(sequelize, Sequelize);
+db.serviceDetails = require("./services/serviceDetails")(sequelize, Sequelize);
+db.imageServices = require("./services/imageServices")(sequelize, Sequelize);
+db.serviceMachines = require("./services/serviceMachines")(sequelize, Sequelize);
+//db Services ends
+
+//db Testimonials Starts
+db.testimonialName = require("./testimonials/testimonialName")(sequelize, Sequelize);
+db.testimonialDesignations = require("./testimonials/testimonialDesignations")(sequelize, Sequelize);
+db.testimonialImages = require("./testimonials/testimonialImages")(sequelize, Sequelize);
+db.testimonialDetails = require("./testimonials/testimonialDetails")(sequelize, Sequelize);
+//db Testimonials ends
+
+//db Contact us Starts
+db.contactPhn = require("./contactUs/contactPhn")(sequelize, Sequelize);
+db.addressContact = require("./contactUs/addressContact")(sequelize, Sequelize);
+db.emailContact = require("./contactUs/contactEmail")(sequelize, Sequelize);
+db.queryContact = require("./contactUs/contactQuery")(sequelize, Sequelize);
+//db Contact us ends
+
+//db Blog Starts
+db.blogName = require("./blogPage/blogName")(sequelize, Sequelize);
+db.newsLetter = require("./blogPage/newsLetter")(sequelize, Sequelize);
+db.popularPost = require("./blogPage/popularPost")(sequelize, Sequelize);
+db.blogDetails = require("./blogPage/blogDetails")(sequelize, Sequelize);
+//db Blog ends
+
+//db About Us Starts
+db.aboutUsTitle = require("./abousUs/aboutUsTitle")(sequelize, Sequelize);
+db.aboutUsDetails = require("./abousUs/aboutUsDetails")(sequelize, Sequelize);
+//db About Us ends
+
+//db executive Team Starts
+db.executiveTeamDesignation = require("./executiveTeam/designation")(sequelize, Sequelize);
+db.executiveTeamName = require("./executiveTeam/name")(sequelize, Sequelize);
+db.executiveTeamFacebook = require("./executiveTeam/facebookAddress")(sequelize, Sequelize);
+db.executiveTeamInstagram = require("./executiveTeam/instagram")(sequelize, Sequelize);
+db.executiveTeamTwitter = require("./executiveTeam/twitter")(sequelize, Sequelize);
+//db executive Team ends
+
+//db Career Starts
+db.jobTitle = require("./career/jobtitle")(sequelize, Sequelize);
+db.jobDetail = require("./career/jobDetails")(sequelize, Sequelize);
+db.jobVacancy = require("./career/vacancy")(sequelize, Sequelize);
+db.jobSalary = require("./career/jobSalary")(sequelize, Sequelize);
+//db Career 
 
 module.exports = db;

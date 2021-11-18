@@ -1,5 +1,5 @@
 module.exports = (sequelize, DataTypes) => {
-    const VehicleType = sequelize.define("vehicleType", {
+    const AboutUsTitle = sequelize.define("aboutUsTitle", {
         id: {
             type: DataTypes.BIGINT,
             allowNull: false,
@@ -8,13 +8,13 @@ module.exports = (sequelize, DataTypes) => {
             field: 'id',
         },
 
-        typeofVehicle: {
+        aboutUsTitle: {
             type: DataTypes.STRING,
             allowNull: false,
-            field: 'typeofVehicle',
+            field: 'aboutUsTitle',
         },
         
         });
-    return VehicleType;
+    return AboutUsTitle;
 };
     

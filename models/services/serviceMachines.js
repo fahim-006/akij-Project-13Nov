@@ -1,5 +1,5 @@
 module.exports = (sequelize, DataTypes) => {
-    const VehicleType = sequelize.define("vehicleType", {
+    const ServiceMachine= sequelize.define("serviceMachine", {
         id: {
             type: DataTypes.BIGINT,
             allowNull: false,
@@ -8,13 +8,19 @@ module.exports = (sequelize, DataTypes) => {
             field: 'id',
         },
 
-        typeofVehicle: {
+        idofServiceType: {
+            type: DataTypes.BIGINT,
+            allowNull: false,
+            field: 'idofServiceType',
+        },
+
+        serviceMachine: {
             type: DataTypes.STRING,
             allowNull: false,
-            field: 'typeofVehicle',
+            field: 'serviceMachine',
         },
         
         });
-    return VehicleType;
+    return ServiceMachine;
 };
     
