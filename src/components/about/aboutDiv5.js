@@ -37,16 +37,16 @@ function AboutDiv5() {
         ></CardImg>
         <CardBody style={style1}>
           <CardText>
-                <div class="flex-container-card">
-                    <div class="flex-item-card">
+                <div className="flex-container-card">
+                    <div className="flex-item-card">
                         <img src={Facebook}  alt="image" style={{borderRadius: "50%"}} width="50%"/>
                     </div>
 
-                    <div class="flex-item-card">
+                    <div className="flex-item-card">
                     <img src={Instagram}  alt="image" style={{borderRadius: "50%"}} width="50%"/>
                     </div>
 
-                    <div class="flex-item-card">
+                    <div className="flex-item-card">
                     <img src={Twitter}  alt="image" style={{borderRadius: "50%"}} width="50%"/>
                     </div>
                 </div>

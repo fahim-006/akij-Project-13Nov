@@ -16,51 +16,51 @@ const AboutDiv7 = () => {
         <div className="container-fluid"  style={{ padding: "100px"}}>
             <p className="aboutusHeading1" style={{left: "50%", textAlign: "center"}}>Clients</p>
                 <hr  className="aboutusDiv5-hr1"/>
-            <div class="flex-container-client">
-                    <div class="flex-item-client">
-                        <img src={client1} alt="client" class="img-thumbnail"/>
+            <div className="flex-container-client">
+                    <div className="flex-item-client">
+                        <img src={client1} alt="client" className="img-thumbnail"/>
                     </div>
 
-                    <div class="flex-item-client">
-                        <img src={client2} alt="client" class="img-thumbnail"/>
+                    <div className="flex-item-client">
+                        <img src={client2} alt="client" className="img-thumbnail"/>
                     </div>
 
-                    <div class="flex-item-client">
-                        <img src={client3} alt="client" class="img-thumbnail"/>
+                    <div className="flex-item-client">
+                        <img src={client3} alt="client" className="img-thumbnail"/>
                     </div>
 
-                    <div class="flex-item-client">
-                        <img src={client4} alt="client" class="img-thumbnail"/>
+                    <div className="flex-item-client">
+                        <img src={client4} alt="client" className="img-thumbnail"/>
                     </div>
 
-                    <div class="flex-item-client">
-                        <img src={client5} alt="client" class="img-thumbnail"/>
+                    <div className="flex-item-client">
+                        <img src={client5} alt="client" className="img-thumbnail"/>
                     </div>
 
-                    <div class="flex-item-client">
-                        <img src={client6} alt="client" class="img-thumbnail"/>
+                    <div className="flex-item-client">
+                        <img src={client6} alt="client" className="img-thumbnail"/>
                     </div>
-                    <div class="flex-item-client">
-                        <img src={client7} alt="client" class="img-thumbnail"/>
-                    </div>
-
-                    <div class="flex-item-client">
-                        <img src={client8} alt="client" class="img-thumbnail"/>
-                    </div>
-                    <div class="flex-item-client">
-                        <img src={client9} alt="client" class="img-thumbnail"/>
+                    <div className="flex-item-client">
+                        <img src={client7} alt="client" className="img-thumbnail"/>
                     </div>
 
-                    <div class="flex-item-client">
-                        <img src={client10} alt="client" class="img-thumbnail"/>
+                    <div className="flex-item-client">
+                        <img src={client8} alt="client" className="img-thumbnail"/>
+                    </div>
+                    <div className="flex-item-client">
+                        <img src={client9} alt="client" className="img-thumbnail"/>
+                    </div>
+
+                    <div className="flex-item-client">
+                        <img src={client10} alt="client" className="img-thumbnail"/>
                     </div>
                     
-                    <div class="flex-item-client">
-                        <img src={client11} alt="client" class="img-thumbnail"/>
+                    <div className="flex-item-client">
+                        <img src={client11} alt="client" className="img-thumbnail"/>
                     </div>
 
-                    <div class="flex-item-client">
-                        <img src={client12} alt="client" class="img-thumbnail"/>
+                    <div className="flex-item-client">
+                        <img src={client12} alt="client" className="img-thumbnail"/>
                     </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 const AboutusDiv2 = () => {
     return(
     
-            <div class="flex-item-aboutDiv2" style={{marginTop: "100px"}}>
+            <div className="flex-item-aboutDiv2" style={{marginTop: "100px"}}>
                 <p className="aboutusHeading" style={{textAlign: "center", left: "50%"}}>Features</p>
                 <p className="aboutusHeading1" style={{left: "50%", textAlign: "center"}}>Our Best Goal's</p>
 
