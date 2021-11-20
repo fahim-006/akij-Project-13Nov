@@ -22,7 +22,7 @@ db.sequelize = sequelize;
 //db vehicle Models starts
 db.vehicleTypes = require("./vehicleModels/vehicleTypes")(sequelize, Sequelize);
 db.vehicleName = require("./vehicleModels/vehicleName")(sequelize, Sequelize);
-db.vehicleDetails = require("./vehicleModels/vehicleDetails")(sequelize, Sequelize);
+db.vehicleDetail = require("./vehicleModels/vehicleDetail")(sequelize, Sequelize);
 db.vehicleImage = require("./vehicleModels/vehicleImages")(sequelize, Sequelize);
 db.vehicleExtraImage = require("./vehicleModels/vehicleExtraImage")(sequelize, Sequelize);
 //db vehicle Models ends

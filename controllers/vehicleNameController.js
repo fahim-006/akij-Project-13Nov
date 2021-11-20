@@ -1,36 +1,36 @@
 //  Author: Mashrur Hossain Khan
-//  Create Date: 18/11/2021
-//  Modify Date: 18/11/2021
-//  Description: Vehicle Types controller file for rest api project for Akij Motors
+//  Create Date: 20/11/2021
+//  Modify Date: 20/11/2021
+//  Description: Vehicle Name controller file for rest api project for Akij Motors
 
 // Model import
 const models = require("../models");
-const  VehicleTypes = models.vehicleTypes;
+const  VehicleName = models.vehicleName;
 
-// Create VehicleTypes
-exports.createVehicleTypes = async function (req, res) {
+// Create VehicleNames
+exports.createVehicleNames = async function (req, res) {
     let body = req.body;
     try {
-        await VehicleTypes.create({
-            typeofVehicle: body.typeofVehicle,
+        await VehicleName.create({
+            idOfVehicleType: body.idOfVehicleType,
+            VehicleName: body.VehicleName,            
         })
         .then((vehicle) => {
-            res.status(200).json("Vehicle Type has created successfully");
+            res.status(200).json("Vehicle Name has created successfully");
          
         })
         .catch((err) => {
           return res.status(500).json("Something error there " + err);
         });
-      //exports.authenticate(req, res);
     } catch (e) {
       return res.status(400).send({ error: e.message });
     }
   };
 
-  // Get all getAllVehicleTypes
-exports.getAllVehicleTypes = async function (req, res) {
+   // Get all getAllVehicleNames
+exports.getAllVehicleNames = async function (req, res) {
   try {
-    await VehicleTypes.findAll()
+    await VehicleName.findAll()
       .then((vehicles) => {
         res.status(200).json(vehicles);
       })
@@ -42,6 +42,8 @@ exports.getAllVehicleTypes = async function (req, res) {
   }
 };
 
+
+/*
 //edit VehicleTypes
 module.exports.updateVehicleTypesById = async (req, res) => {
   const id = req.params.id;
@@ -96,3 +98,7 @@ module.exports.deleteVehicleTypesById =  async(req, res) => {
       res.status(400).json(err);
     });
 }
+
+*/
+
+ 
