@@ -27,9 +27,8 @@ const responsive = {
 const AboutDiv8 = () => {
     return(
         <div>
-            <p className="aboutusHeading1" style={{left: "50%", textAlign: "center"}}>Partners</p>
+            <p className="aboutusHeading1" style={{left: "50%", textAlign: "center", marginTop: "20px"}}>Partners</p>
             <hr  className="aboutusDiv5-hr1"/>
-            <br/><br/><br/>
             <div  className="partnerDivno8">
             <Carousel
                 swipeable={false}

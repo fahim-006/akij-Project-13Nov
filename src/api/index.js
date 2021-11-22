@@ -17,3 +17,10 @@ export const getAllVehicleImages = () => {
     return axios.get(`${API}/getall/vehicleimage`, {
     })
 }
+
+
+export const getAllVehicleTypes = () => {
+    return axios.get(`${API}/getall/vehicletype`, {
+    })
+}
+

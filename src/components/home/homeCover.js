@@ -44,12 +44,14 @@ const HomeCover = () => {
 
                 {vehiclename.map((item1) => {
                             return(
-                                <p className="homepageCoverName">{item1.VehicleName}</p>
+                              <div className="homepageCoverNameDiv">
+                                  <p className="homepageCoverName">{item1.VehicleName}</p>
+                              </div>
                             )
                          
                         })}
-
-                        <button className="homepageCoverButton">Details &nbsp;&nbsp;&nbsp; <i class="fas fa-arrow-right"></i></button>
+                    
+                        <button className="homepageCoverButton">Details &nbsp;&nbsp;&nbsp; <i className="fas fa-arrow-right"></i></button>
                 </div>
                 <div className="col-lg-8 col-md-12 col-sm-12 homecover2">
                         {VehicleImages.map((item2) => {

@@ -32,8 +32,7 @@ const HomeCoverClick = () => {
         
       },[]) 
 
-    return(
-        <Layout title="Akij Motors | Home">
+    return(      
         <div className="container-fluid homecover">
             <div className="row">
                 <div className="col-lg-4 col-md-12 col-sm-12 homecover1">
@@ -64,7 +63,6 @@ const HomeCoverClick = () => {
                 </div>
             </div>
         </div>
-        </Layout>
     )
 }
 export default HomeCoverClick;

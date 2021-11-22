@@ -5,7 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 const AboutUsDiv4 = (props) => {
 
     return(
-        <div style={{marginTop:"100px", backgroundColor:"#F7FAFC"}}>
+        <div style={{marginTop:"100px", backgroundColor:"#F7FAFC"}} className="aboutDiv4Main">
              <p className="aboutusHeading1" style={{left: "50%", textAlign: "center"}}>Testomonial</p>
              <p className="aboutusHeading1" style={{left: "50%", textAlign: "center", fontSize:"30px", fontWeight:"normal"}}>See what people say about our company</p>
              <hr  className="aboutusDiv4-hr1"/>
@@ -21,7 +21,7 @@ const AboutUsDiv4 = (props) => {
               showIndicators>
 
                 <div>
-                <img src="/images/shirley.png"  alt="image"/>
+                <img src="/images/shirley.png" className="imgAboutDiv4" alt="image"/>
                 <div className="myCarousel">
                     <h3>Shirley Fultz</h3>
                     <h4>Designer</h4>
@@ -33,7 +33,7 @@ const AboutUsDiv4 = (props) => {
                 </div>
 
                 <div>
-                <img src="/images/daniel.png" />
+                <img className="imgAboutDiv4"  src="/images/daniel.png" />
                 <div className="myCarousel">
                     <h3>Daniel Keystone</h3>
                     <h4>Designer</h4>
@@ -45,7 +45,7 @@ const AboutUsDiv4 = (props) => {
                 </div>
 
                 <div>
-                <img src="/images/theo.png" />
+                <img  className="imgAboutDiv4"  src="/images/theo.png" />
                 <div className="myCarousel">
                     <h3>Theo Sorel</h3>
                     <h4>Designer</h4>
