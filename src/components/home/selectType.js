@@ -1,5 +1,3 @@
-import { useEffect, useState } from 'react';
-import { getAllVehicleTypes } from '../../api';
 import top from './images/top.png'
 import certified from './images/typeImage/certified.png'
 import convertable from './images/typeImage/convertable.png'

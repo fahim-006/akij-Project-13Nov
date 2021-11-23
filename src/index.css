@@ -738,6 +738,7 @@ margin-right: 20px;
   font: normal normal 300 22px/33px Poppins;
   color: #FFFFFF;
   opacity: 1;
+  text-align: left;
   margin-left: 120px;
 }
 
@@ -747,8 +748,8 @@ margin-right: 20px;
   font: normal normal bold 40px/47px Helvetica;
   letter-spacing: 0px;
   color: #FFFFFF;
+  text-align: left;
   float: right;
-  text-align: right;
   opacity: 1;
 }
 
