@@ -11,15 +11,6 @@ import sportscar from './images/typeImage/sportscar.png'
 import suv from './images/typeImage/suv.png'
 
 const SelectType = () => {
-    const [types, setTypes] = useState([]);
-
-    useEffect(()=>{
-        getAllVehicleTypes()
-        .then(response => {
-            setTypes(response.data)
-          })
-          .catch(err => alert("Something went wrong!"))
-        },[])
 
     return(
         <div className="container-fluid">
@@ -36,96 +27,51 @@ const SelectType = () => {
                 <div className="col-lg-12 col-md-12 col-sm-12 grid-container-selecttype">
                   
                             
-                            {types.map((item) => {
-                                if(item.typeofVehicle==="SEDAN"){
-                                    return(
-                                        <>
+                         
                                             <div>
                                                 <img src={sedan}/>
-                                                <p>{item.typeofVehicle.toUpperCase()} </p>
+                                                <p>SEDAN </p>
                                             </div>
-                                        </>
-                                    )
-                                }
 
-                                if(item.typeofVehicle==="CROSSOVER"){
-                                    return(
-                                        <>
+
                                             <div>
                                                 <img src={crossover}/>
-                                                <p>{item.typeofVehicle.toUpperCase()} </p>
+                                                <p>CROSSOVER </p>
                                             </div>
-                                        </>
-                                    )
-                                }
-
-                                if(item.typeofVehicle==="PICKUP TRUCK"){
-                                    return(
-                                        <>
+                      
                                             <div>
                                                 <img src={pickup}/>
-                                                <p>{item.typeofVehicle.toUpperCase()} </p>
-                                            </div>
-                                        </>
-                                    )
-                                }
+                                                <p>PICKUP TRUCK</p>
+                                         </div>
 
-                                if(item.typeofVehicle==="SPORTS CAR"){
-                                    return(
-                                        <>
                                             <div>
                                                 <img src={sportscar}/>
-                                                <p>{item.typeofVehicle.toUpperCase()} </p>
+                                                <p>SPORTS CAR</p>
                                             </div>
-                                        </>
-                                    )
-                                }
+                                    
 
-                                if(item.typeofVehicle=="suv"){
-                                    return(
-                                        <>
                                             <div>
                                                 <img src={suv}/>
-                                                <p>{item.typeofVehicle.toUpperCase()} </p>
+                                                <p>SUV </p>
                                             </div>
-                                        </>
-                                    )
-                                }
+                                   
 
-                                if(item.typeofVehicle=="convertible"){
-                                    return(
-                                        <>
                                             <div>
                                                 <img src={convertable}/>
-                                                <p>{item.typeofVehicle.toUpperCase()} </p>
+                                                <p>CONVERTABLE </p>
                                             </div>
-                                        </>
-                                    )
-                                }
-
-                                if(item.typeofVehicle=="luxury car"){
-                                    return(
-                                        <>
+                                      
                                             <div>
                                                 <img src={luxury}/>
-                                                <p>{item.typeofVehicle.toUpperCase()} </p>
+                                                <p>LUXURY CAR </p>
                                             </div>
-                                        </>
-                                    )
-                                }
 
-                                if(item.typeofVehicle=="certified car"){
-                                    return(
-                                        <>
+                             
                                             <div>
                                                 <img src={certified}/>
-                                                <p>{item.typeofVehicle.toUpperCase} </p>
+                                                <p>CERTIFIED CAR</p>
                                             </div>
-                                        </>
-                                    )
-                                }
-                         
-                        })}
+                                      
                            
               
                 </div>

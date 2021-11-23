@@ -11,7 +11,6 @@ const Topbar = () => {
                 </div>
                 <div className="col-lg-8 col-md-12 col-sm-12">
                     <div className="item1-menu"> <li className="navLi"><a href="#home">CONTACT</a></li></div>
-                    <div className="item1-menu"> <li className="navLi"><a href="#home">CAREER</a></li></div>  
                     <div className="item1-menu">  <li className="navLi"><a href="#home">DEALER</a></li></div>
                     <div className="item1-menu"> <li className="navLi"><a href="#news">AKIJ GROUP</a></li></div>
                     <div className="item1-menu">  <li className="navLi"><a href="/aboutus">ABOUT US</a></li></div>

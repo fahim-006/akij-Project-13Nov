@@ -197,7 +197,7 @@ margin-right: 20px;
   width: 100%;
   background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('./components/about/images/aboutUsCover.jpg');
   background-color: #cccccc;
-  height: 550px;
+  height: 350px;
   background-position: 30% 30%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -322,7 +322,7 @@ margin-right: 20px;
 
 /*About us div4*/
 .chairmain{
-  width:  24rem ;
+  width:  17rem ;
   left:  42% ;
   top: 100px ;
   margin-left: auto;
@@ -673,8 +673,8 @@ margin-right: 20px;
 
 .homecover1{
   margin-top: 200px;
-  float: right;
-  text-align: right
+  float: left;
+  text-align: left;
 }
 
 .homecover2{
@@ -736,9 +736,9 @@ margin-right: 20px;
 
 .homeCoverTagline{
   font: normal normal 300 22px/33px Poppins;
-  letter-spacing: 0px;
   color: #FFFFFF;
   opacity: 1;
+  margin-left: 120px;
 }
 
 .homepageCoverName {
@@ -760,14 +760,16 @@ margin-right: 20px;
 }
 
 .homepageCoverButton{
-  float: right;
+  float: left;
   height: 61px;
   text-align: center;
   font: normal normal normal 22px/33px Poppins;
   letter-spacing: 0px;
   color: #B50000;
+  margin-top: 50px;
   opacity: 1;
   top: 728px;
+  margin-left: 120px;
   left: 143px;
   border: 2px solid #FFFFFF;
   width: 194px;

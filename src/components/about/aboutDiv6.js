@@ -19,11 +19,13 @@ const style = {
   display: "block",
   marginLeft: "auto",
   marginRight: "auto",
+  width:  "17rem" 
  };
 
  const style1 = { 
     backgroundColor: "#FB4339",
-    color: "#ffffff"
+    color: "#ffffff",
+    width:  "17rem" 
  };
 const AboutDiv6 = () => {
     return(
@@ -61,7 +63,7 @@ const AboutDiv6 = () => {
       </Card>
                 </div>
 
-                <div className="col-lg-3 col-md-12 col-sam-12">
+                <div className="col-lg-3 col-md-12 col-sm-12">
                 <Card style={style}>
         <CardImg
           alt="Founder"
